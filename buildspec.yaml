@@ -17,8 +17,6 @@ phases:
 artifacts:
   files:
     - build/**/*
-    - public/**/*
-    - src/**/*
-    - package.json
     - appspec.yml
     - scripts/**/*
+    - nginx/**/*
