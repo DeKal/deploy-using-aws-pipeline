@@ -5,6 +5,7 @@ curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 yum -y install nodejs npm
 
 
-sudo yum update -y
-sudo yum install nginx -y
+sudo amazon-linux-extras install nginx1
 
+systemctl start nginx
+systemctl status nginx
